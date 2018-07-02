@@ -1,0 +1,8 @@
+ Pomodoro Technique is a time management 
+ 
+#repeat-a-command-every-x-interval-of-time-in-terminal
+
+sudo sleep 10;sudo rtcwake -m mem -s 5
+sudo watch -n 10  rtcwake -m mem -s 5
+
+sudo watch -n 1500  rtcwake -m mem -s 300
